@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <center>
+        <h1>Collage Web App</h1>
+        <a href="" id="link" download="myselfie.png"></a>
+        <hr>
+        <h4 style="color:red;">Please press allow as soon as popup comes. After you give a voice command</h4>
+        
+        <div class="form-group">
+        <h3>Say "take my selfie"</h3>
+        <label>Your voice output : </label>
+        <textarea class="form-control" id="textbox" readonly="true"></textarea>
+        </div>
+
+        <button class="btn btn-primary" onclick="start()"> Start </button>
+        <p>Press the Start button</p>
+
+        <label>Your webcam : </label>
+        <div id="picture"></div>
+        
+        <br>
+
+        <label>Your selife Will Display Here: </label>
+        <div id="result" ></div>
+      </div>
+      <div id="resultShow">
+        <div id="result1" class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> 
+          <img src="Raj_Kashyap_2008_A_novel_character_25_years_old_white_hairs_ver_6fd50a79-e1d6-44b9-b795-e19eff7748f2.png" alt="image1">
+        </div>
+        <div id="result2" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <img src="Raj_Kashyap_2008_Female_novel_main_character_Beautiful_face_cur_c4688df3-690d-4d25-906c-50cff1f524c5.png" alt="image2" >
+        </div>
+        <div id="result3" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <img src="Raj_Kashyap_2008_Male_main_character_of_a_novel_teenager_with_b_3dce3f68-c1bf-4b64-84b3-69aa708344f1.png" alt="image3">
+        </div>
+      </div>
+    </center>
+
+    <div class="footer">
+        Developed by Raj Kashyap
+      </div>
+
+</body>
+
+</html>
